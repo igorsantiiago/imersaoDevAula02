@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/reset.css">
+
+        <link rel="stylesheet" href="css/nav.css">
+        <script src="js/nav.js" defer></script>
+
+        <link rel="stylesheet" href="css/temperatura.css">
+        <script src="js/script.js" defer></script>
+
+
+        <title>imersaoDev - Aula 02</title>
+    </head>
+
+    <body>
+
+        <header>
+            <nav class="navbar">
+                <div class="brand-title">
+                    <a href="index.html">Conversores</a>
+                </div>
+        
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+        
+                <div class="navbar-links">
+                    <ul>
+                        <li><a href="index.html">Moeda</a></li>
+                        <li><a href="distancia.html">Distância</a></li>
+                        <li><a href="temperatura.html">Temperaturas</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+
+            <h1 class="page-title">
+                Conversor de Temperatura
+            </h1>
+
+            <label for="temperatura">Insira a temperatura desejada</label><br>
+            <input type="number" id="temperatura" placeholder="Digite a temperatura"/><br>
+            <br/>
+
+            <label for="origem">Unidade de Origem</label>
+            <select name="origem" id="origem">
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="celsius">Celsius</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+
+            <label for="destino">Unidade de Destino</label>
+            <select name="destino" id="destino">
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="celsius">Celsius</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+            <br/>
+
+            <label for="resultado">Resultado</label><br>
+            <input id="resultado" readonly /><br>
+
+
+            <button type="submit" onclick="converterTemperatura(event)">Converter</button>
+
+            <h2 id="valorConvertido"></h2>
+        </div>
+
+            <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+
+    </body>
+
+</html>
