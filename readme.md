@@ -1,3 +1,7 @@
+Esse projeto foi realizado durante a imersãoDev da Alura.
+
+Dentro desse projeto esta incluso o conteudo da aula, juntamente com alguns desafios proprostos pelos professores.
+
 Conversor de Moedas
 
 Objetivo será criar um conversor de moedas e ver como o .js interage com o código HTML. Utilizar funções e chama-lás para serem executadas.
@@ -13,4 +17,4 @@ Desáfios
 3 - Conversor de temperatura entre fahrenheit, kelvin e celsius
 4 - Adicionar uma linha ao proeto desenvolvido para que apareça o valor em bitcoin
 
-
+Caso tenha interesse em ver como o projeto ficou
